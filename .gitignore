@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Environment / secrets — never commit
+.env
+
+# Data — regeneratable, never commit
+data/raw/
+data/processed/
+*.parquet
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
