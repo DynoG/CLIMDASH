@@ -1,0 +1,63 @@
+location_name,latitude,longitude,admin_name,capital,population,id
+Adrar,27.8742,-0.2939,Adrar,admin,68276,1012462113
+Algiers,36.7764,3.0586,Alger,primary,3004000,1012973369
+El Hadjar,36.8,7.7333,Annaba,,464740,1012495144
+Annaba,36.9,7.7667,Annaba,admin,257359,1012600001
+Aïn Defla,36.2583,1.9583,Aïn Defla,admin,65453,1012656497
+Aïn Temouchent,35.3044,-1.14,Aïn Temouchent,admin,75558,1012763655
+Batna,35.55,6.1667,Batna,admin,290645,1012093229
+Bejaïa,36.7511,5.0642,Bejaïa,admin,176139,1012140298
+Biskra,34.85,5.7333,Biskra,admin,204661,1012947247
+Blida,36.4722,2.8333,Blida,admin,520000,1012045589
+El Golea,30.6,2.9,Bordj Badji Mokhtar,admin,40195,1012834851
+Bordj Bou Arreridj,36.0667,4.7667,Bordj Bou Arréridj,admin,168346,1012016677
+Bouira,36.3783,3.8925,Bouira,admin,68545,1012006499
+Boumerdes,36.7594,3.4728,Boumerdes,admin,41685,1012627486
+Béchar,31.6164,-2.2183,Béchar,admin,165627,1012371820
+Bordj Mokhtar,21.3289,0.9542,Béni Abbès,admin,16437,1012945794
+Chlef,36.1647,1.3317,Chlef,admin,155134,1012772239
+Constantine,36.365,6.6147,Constantine,admin,465138,1012275076
+El Khroub,36.2633,6.6936,Constantine,,279812,1012245786
+Djanet,24.555,9.4853,Djanet,admin,14655,1012827195
+Djelfa,34.6667,3.25,Djelfa,admin,265833,1012268984
+El Bayadh,33.6831,1.0192,El Bayadh,admin,85577,1012906892
+El Meghaïer,33.9506,5.9242,El Meghaier,admin,49793,1012153214
+Timimoun,29.25,0.2333,El Meghaier,admin,33060,1012351010
+El Oued,33.3683,6.8675,El Oued,admin,134699,1012148937
+El Tarf,36.7669,8.3136,El Tarf,admin,25594,1012205687
+Ghardaïa,32.4833,3.6667,Ghardaïa,admin,120000,1012074690
+Guelma,36.4619,7.4258,Guelma,admin,120004,1012266321
+Illizi,26.508,8.4829,Illizi,admin,17252,1012499058
+I-n-Salah,27.195,2.4825,In Salah,admin,32518,1012201146
+Beni Abbès,30.1317,-2.1692,In Salah,admin,10885,1012633792
+Jijel,36.8206,5.7667,Jijel,admin,131513,1012782547
+Khenchela,35.4167,7.1333,Khenchela,admin,108580,1012495148
+Laghouat,33.8,2.865,Laghouat,admin,134372,1012233848
+Mascara,35.4,0.1333,Mascara,admin,108587,1012738269
+Mila,36.4481,6.2622,Mila,admin,69052,1012656063
+Mostaganem,35.9333,0.0903,Mostaganem,admin,145696,1012061703
+Sidi Aïssa,35.8864,3.7756,Msila,,215000,1012091250
+MSila,35.7058,4.5419,Msila,admin,132975,1012857730
+Médéa,36.2675,2.75,Médéa,admin,138355,1012758282
+Naama,33.2678,-0.3111,Naama,admin,16251,1012850542
+Oran,35.6969,-0.6331,Oran,admin,920000,1012126319
+Bir el Djir,35.7367,-0.5542,Oran,,171883,1012283284
+Ouargla,31.95,5.3167,Ouargla,admin,191136,1012425687
+Ouled Djellal,34.4167,5.0667,Ouled Djellal,admin,63237,1012109892
+Oum el Bouaghi,35.8706,7.115,Oum el Bouaghi,admin,80359,1012958880
+Relizane,35.7372,0.5558,Relizane,admin,130094,1012939885
+Saïda,34.8303,0.1517,Saïda,admin,128413,1012285874
+Sidi Bel Abbès,35.2,-0.6333,Sidi Bel Abbès,admin,212935,1012123414
+Skikda,36.8667,6.9,Skikda,admin,163318,1012619903
+Souk Ahras,36.2864,7.9511,Souk Ahras,admin,155259,1012419619
+Sétif,36.19,5.41,Sétif,admin,288461,1012981116
+Tamanrasset,22.785,5.5228,Tamanrasset,admin,92635,1012765474
+Tiaret,35.3667,1.3167,Tiaret,admin,178915,1012785868
+In Guezzam,19.5686,5.7722,Timimoun,admin,7045,1012000031
+Tindouf,27.6753,-8.1286,Tindouf,admin,45610,1012450434
+Tipasa,36.5942,2.443,Tipaza,admin,25225,1012866308
+Tissemsilt,35.6072,1.8106,Tissemsilt,admin,75197,1012743339
+Tizi Ouzou,36.7169,4.0497,Tizi Ouzou,admin,156775,1012126997
+Tlemcen,34.8828,-1.3167,Tlemcen,admin,173531,1012978325
+Touggourt,33.1,6.0667,Touggourt,admin,143270,1012546670
+Tébessa,35.4,8.1167,Tébessa,admin,194461,1012196375

@@ -45,3 +45,9 @@ for d in (RAW_CACHE_DIR, PROCESSED_DIR):
 # ─── Defaults ──────────────────────────────────────────────────────────
 DEFAULT_METRIC: str = _get("DEFAULT_METRIC", "temperature_2m")
 DEFAULT_HISTORY_DAYS: int = int(_get("DEFAULT_HISTORY_DAYS", "7"))
+
+
+# ─── Open-Meteo transport ──────────────────────────────────────────────
+OPEN_METEO_AUTH_MODE: str = _get("OPEN_METEO_AUTH_MODE", "query")  # "query" | "header"
+OPEN_METEO_REQUEST_TIMEOUT: int = int(_get("OPEN_METEO_REQUEST_TIMEOUT", "30"))
+OPEN_METEO_BATCH_SIZE: int = int(_get("OPEN_METEO_BATCH_SIZE", "50"))
