@@ -201,7 +201,7 @@ class OpenMeteoProvider(WeatherProvider):
             raise OpenMeteoAPIError(
                 f"Open-Meteo returned non-JSON content (HTTP {response.status_code})"
             )
-        # Open-Meteo returns a dict for single-coordinate requests and a
+        # FIX :: Open-Meteo returns a dict for single-coordinate requests and a
         # list of dicts for multi-coordinate ones. The error envelope
         # ({"error": true, "reason": ...}) only ever arrives as a dict,
         # so we look for it there and never call .get() on a list.
