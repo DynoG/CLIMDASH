@@ -35,7 +35,7 @@ GENERIC_API_AUTH_HEADER: str = _get("GENERIC_API_AUTH_HEADER", "X-API-KEY")
 
 # ─── Paths (resolved to absolute so notebooks work from any cwd) ───────
 REPO_ROOT: Path = Path(__file__).resolve().parent.parent
-CITIES_CSV: Path = REPO_ROOT / _get("CITIES_CSV", "data/cities.csv")
+CITIES_CSV: Path = REPO_ROOT / _get("CITIES_CSV", "data/targets.csv")
 RAW_CACHE_DIR: Path = REPO_ROOT / _get("RAW_CACHE_DIR", "data/raw")
 PROCESSED_DIR: Path = REPO_ROOT / _get("PROCESSED_DIR", "data/processed")
 

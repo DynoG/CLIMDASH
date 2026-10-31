@@ -81,7 +81,23 @@ def load_locations(
 
 
 def fetch_current(provider_name: str | None = None) -> pd.DataFrame:
-    """Convenience: load locations + fetch current conditions."""
+    """Load locations, fetch current conditions, and re-attach location metadata.
+
+    The provider returns exactly CURRENT_COLUMNS. This function merges back
+    any extra columns from the locations CSV (admin_name, capital, population,
+    id) by row position. Positional merge is safe because the provider
+    preserves input order across batches.
+    """
     provider = get_provider(provider_name)
     locations = load_locations()
-    return provider.fetch_current(locations)
+    weather = provider.fetch_current(locations).reset_index(drop=True)
+    locations = locations.reset_index(drop=True)
+
+    extras = [
+        c for c in locations.columns
+        if c not in ("location_name", "latitude", "longitude")
+    ]
+    if not extras:
+        return weather
+
+    return pd.concat([weather, locations[extras]], axis=1)
