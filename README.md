@@ -18,7 +18,7 @@ changes.
 
 ### 1. Clone and enter the repo
 ```bash
-git clone https://github.com/<you>/climate-reporting-pipeline.git
+git clone https://github.com/DynoG/CLIMDASH.git
 cd climate-reporting-pipeline
 ```
 
